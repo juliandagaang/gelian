@@ -1,0 +1,44 @@
+html, body{
+  margin:0;
+  padding: 0;
+  height:100vh !important;
+  //overflow: hidden;
+}
+
+ul,li{
+  padding:0;
+  margin:0;
+  list-style: none;
+  outline:none;
+  box-sizing: border-box;
+}
+
+
+
+
+.content-area{
+  -webkit-animation: fade-in 0.5s ease-in-out both;
+  animation: fade-in 0.5s ease-in-out both;
+  display: flex;
+  flex-flow: column;
+  background:white;
+  height:100vh
+
+}
+
+.content-body{
+  flex:1;
+
+  padding:var(--space-xl);
+
+}
+
+.ilo li{
+  background: lightgrey;
+  padding: var(--space-md);
+  color:white;
+  //margin: 16px 0;
+}
+
+
+
